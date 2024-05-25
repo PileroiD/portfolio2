@@ -6,6 +6,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const paint = document.querySelector(".about_me__img");
     const preloader = document.querySelector(".preloader");
     const wrapper = document.querySelector(".wrapper");
+    const mainImg = document.querySelector(".main__image");
 
     document.addEventListener("mousemove", function (event) {
         const accent = document.querySelector(".accent > img");
@@ -53,5 +54,7 @@ window.addEventListener("DOMContentLoaded", () => {
             
             Explore my projects to see my work. If you're looking for a dedicated developer or have any questions, feel free to reach out. <span>I'm currently seeking new opportunities and eager to join a dynamic team.</span>
         `;
+
+        mainImg.removeAttribute("data-aos-delay");
     }
 });
