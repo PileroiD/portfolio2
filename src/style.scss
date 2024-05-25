@@ -187,7 +187,7 @@ main {
     &__item {
         display: grid;
         grid-template-columns: 500px auto;
-        grid-template-rows: 270px;
+        grid-template-rows: 260px;
         gap: 130px;
         margin-bottom: 50px;
         &-title {
@@ -243,7 +243,7 @@ footer {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     main {
         margin-top: 90px;
         .greeting {
@@ -274,14 +274,10 @@ footer {
     }
     .projects {
         &__item {
-            display: flex;
-            gap: 20px;
-            &-slider {
-                flex: 1;
-            }
-            &-info {
-                flex: 1;
-            }
+            grid-template-columns: 360px auto;
+            grid-template-rows: 260px;
+            gap: 40px;
+            margin-bottom: 50px;
         }
     }
 }
@@ -327,7 +323,10 @@ footer {
     }
     .projects {
         &__item {
-            flex-direction: column;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            gap: 30px;
+            margin-bottom: 50px;
         }
     }
     footer {
@@ -355,5 +354,32 @@ footer {
     }
     .about_me {
         padding: 0;
+    }
+    .projects {
+        &__item {
+            grid-template-columns: auto;
+            grid-template-rows: 220px auto;
+            gap: 0;
+            margin-bottom: 50px;
+            &-descr {
+                margin: 10px 0;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .projects {
+        &__item {
+            grid-template-columns: auto;
+            grid-template-rows: 160px auto;
+            gap: 10px;
+            margin-bottom: 50px;
+            &-descr {
+                margin: 10px 0;
+                font-size: 15px;
+            }
+        }
     }
 }
