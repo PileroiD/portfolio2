@@ -47,7 +47,7 @@ window.addEventListener("DOMContentLoaded", () => {
             <br />
             <br />
 
-            I specialize in <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, and <span>React</span>, with experience spanning multiple projects from small business websites to large applications. I translate complex requirements into functional, user-friendly solutions.
+            I specialize in <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, <span>TypeScript</span>, <span>React</span> and <span>Next.js</span> with experience spanning multiple projects from small business websites to large applications. I translate complex requirements into functional, user-friendly solutions.
 
             <br />
             <br />
