@@ -84,7 +84,7 @@ const createProjectsHtml = () => {
                             <p class="visitSite">Visit site</p>
                             <img
                                 class="svg-icon app"
-                                src="svgs/linkIcon.svg"
+                                src="images/svgs/linkIcon.svg"
                                 alt="link-icon"
                             />
                         </a>
